@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "device/tecno/mt6789-common",
+        "device/infinix/mt6789-common",
         "hardware/mediatek",
         "hardware/mediatek/libmtkperf_client",
         "hardware/transsion",
@@ -13,7 +13,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "AVCSecureVdecCA",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -62,7 +62,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "HEVCSecureVdecCA",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -111,7 +111,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "VP9SecureVdecCA",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -160,7 +160,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony@1.0-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -210,7 +210,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAVCSecureVencCA",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -261,7 +261,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadpcmdec_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -304,7 +304,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaedv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -351,7 +351,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbwc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -392,7 +392,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libccci_util",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -429,7 +429,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgz_gp_client",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -468,7 +468,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgz_uree",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -505,7 +505,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhevce_sb.ca7.android",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -546,7 +546,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libion_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -589,7 +589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libion_ulit",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -630,7 +630,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libipsec_ims_shr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -671,7 +671,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libladder",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -712,7 +712,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmp3dec_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -756,7 +756,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -793,7 +793,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkproperty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -830,7 +830,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkrillog",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -867,7 +867,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodec_oal",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -907,7 +907,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodecdrv_header_stub",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -944,7 +944,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libverno",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -977,7 +977,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwo",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1014,7 +1014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V1-ndk_platform",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1052,7 +1052,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk_drvb",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1094,7 +1094,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1137,7 +1137,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libHEVCdec_sa.ca7.android",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1166,7 +1166,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libh264dec_customize",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1188,7 +1188,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libh264dec_sa.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1216,7 +1216,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libh264dec_sd.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1246,7 +1246,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libh264dec_se.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1276,7 +1276,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libh264enc_sa.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1306,7 +1306,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmp4enc_sa.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1334,7 +1334,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmp4enc_xa.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1363,7 +1363,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librcs_interface",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1392,7 +1392,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librcs_volte_core",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1420,7 +1420,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libthha",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1446,7 +1446,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodec_utility_plat.mt6789",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1474,7 +1474,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvolte_core_shr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1501,7 +1501,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvolte_xdmc_shr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1527,7 +1527,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvp8dec_sa.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1554,7 +1554,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvp8enc_sa.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1579,7 +1579,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvp9dec_sa.ca7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1609,7 +1609,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodec_utility",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1637,7 +1637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodec_utility_v3a",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1668,7 +1668,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodecdrv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1699,7 +1699,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcodecdrv_v3a",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1730,7 +1730,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpudv3a_vcodec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1761,7 +1761,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.rcs@2.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1789,7 +1789,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "APUWareApusysServer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1825,7 +1825,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "APUWareHmpServer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1857,7 +1857,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "APUWareUtilsServer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1894,7 +1894,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLES_meow",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1924,7 +1924,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_data",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1948,7 +1948,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_gift",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -1981,7 +1981,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_qt",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2011,7 +2011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMEOW_trace",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2041,7 +2041,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLES_mali",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2086,7 +2086,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.1-impl-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2119,7 +2119,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss-impl-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2151,7 +2151,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss@2.1-impl-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2188,7 +2188,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.sensors@2.X-subhal-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2225,7 +2225,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.primary.mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2278,7 +2278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.r_submix.mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2308,7 +2308,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fsfingerprint.default",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2339,7 +2339,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gps.default",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2367,7 +2367,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hwcomposer.mtk_common",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2437,7 +2437,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "kmsetkey.trustonic",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2465,7 +2465,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMcGatekeeper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2493,7 +2493,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.6-impl-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2544,7 +2544,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.allocator@4.0-impl-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2590,7 +2590,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.mapper@4.0-impl-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2636,7 +2636,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gralloc.common",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2676,7 +2676,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.atms@1.0-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2709,7 +2709,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice@1.1-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2745,7 +2745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.ccap@1.0-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2782,7 +2782,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.0-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2829,7 +2829,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.1-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2878,7 +2878,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.lomoeffect@1.0-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2915,7 +2915,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.15-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -2979,7 +2979,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vulkan.mali",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3005,7 +3005,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.mediatek.V2.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3040,7 +3040,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sound_trigger.primary.mt6789",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3074,7 +3074,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.fptool.fingerprint@2.0-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3113,7 +3113,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation@1.1-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3145,7 +3145,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.6-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3190,7 +3190,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.1-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3226,7 +3226,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lbs_hidl_service-impl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3259,7 +3259,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ae.pipe",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3284,7 +3284,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libBasicModule",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3308,7 +3308,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Default_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3332,7 +3332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Default_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3356,7 +3356,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Default_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3380,7 +3380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Face_Beauty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3404,7 +3404,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Face_Beauty_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3428,7 +3428,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Face_Beauty_mfll",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3452,7 +3452,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_LLHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3476,7 +3476,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_NHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3500,7 +3500,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Panorama",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3524,7 +3524,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Portrait",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3548,7 +3548,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Portrait_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3572,7 +3572,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_ThirdAPP_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3596,7 +3596,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_ThirdAPP_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3620,7 +3620,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Video_720",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3644,7 +3644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Zoom_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3668,7 +3668,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_short_video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3692,7 +3692,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Default_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3716,7 +3716,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Default_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3740,7 +3740,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Default_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3764,7 +3764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Face_Beauty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3788,7 +3788,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Face_Beauty_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3812,7 +3812,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Face_Beauty_mfll",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3836,7 +3836,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_LLHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3860,7 +3860,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_NHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3884,7 +3884,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Panorama",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3908,7 +3908,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Portrait",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3932,7 +3932,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Portrait_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3956,7 +3956,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_ThirdAPP_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -3980,7 +3980,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_ThirdAPP_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4004,7 +4004,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Video_720",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4028,7 +4028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Zoom_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4052,7 +4052,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_short_video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4076,7 +4076,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Boken_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4100,7 +4100,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Capture_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4124,7 +4124,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Capture_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4148,7 +4148,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Default_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4172,7 +4172,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Default_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4196,7 +4196,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Default_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4220,7 +4220,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Documents_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4244,7 +4244,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_FaceBeauty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4268,7 +4268,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_FaceBeauty_mfll",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4292,7 +4292,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_HDR_MINUS_EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4316,7 +4316,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_LLHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4340,7 +4340,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_NHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4364,7 +4364,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Panorama",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4388,7 +4388,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Preview_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4412,7 +4412,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Preview_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4436,7 +4436,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Pro_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4460,7 +4460,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Pro_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4484,7 +4484,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Resolution",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4508,7 +4508,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Resolution_FaceCapture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4532,7 +4532,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Resolution_Hiso_zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4556,7 +4556,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Resolution_Hiso_zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4580,7 +4580,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Resolution_SceneCapture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4604,7 +4604,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Resolution_preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4628,7 +4628,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Resolution_zoom",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4652,7 +4652,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Scene_Capture_4cell_zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4676,7 +4676,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Scene_Capture_4cell_zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4700,7 +4700,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_ShortVideo",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4724,7 +4724,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_SuperNight",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4748,7 +4748,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_ThirdAPP_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4772,7 +4772,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_ThirdAPP_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4796,7 +4796,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_1080P",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4820,7 +4820,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_120fps",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4844,7 +4844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_240fps",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4868,7 +4868,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_2K",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4892,7 +4892,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_60fps",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4916,7 +4916,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_720P",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4940,7 +4940,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_EIS",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4964,7 +4964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -4988,7 +4988,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Video_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5012,7 +5012,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_360HDR",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5036,7 +5036,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_3rd_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5060,7 +5060,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_3rd_Capture_FD",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5084,7 +5084,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_3rd_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5108,7 +5108,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_3rd_Preview_FD",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5132,7 +5132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Boken_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5156,7 +5156,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Capture_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5180,7 +5180,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Capture_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5204,7 +5204,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_FaceBeauty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5228,7 +5228,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_HDR_MINUS_EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5252,7 +5252,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_NHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5276,7 +5276,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Preview_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5300,7 +5300,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Preview_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5324,7 +5324,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Resolution",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5348,7 +5348,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Resolution_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5372,7 +5372,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Resolution_zoom",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5396,7 +5396,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Scene_EIS_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5420,7 +5420,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_ShortVideo",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5444,7 +5444,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_SuperNight",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5468,7 +5468,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Video_2k",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5492,7 +5492,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Video_720",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5516,7 +5516,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_360HDR",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5540,7 +5540,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_3rd_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5564,7 +5564,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_3rd_Capture_FD",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5588,7 +5588,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_3rd_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5612,7 +5612,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_3rd_Preview_FD",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5636,7 +5636,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Boken_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5660,7 +5660,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Capture_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5684,7 +5684,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Capture_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5708,7 +5708,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_NHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5732,7 +5732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Preview_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5756,7 +5756,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Preview_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5780,7 +5780,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Pro_scene",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5804,7 +5804,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Resolution",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5828,7 +5828,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Resolution_zoom",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5852,7 +5852,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Scene_Capture_Remosaic",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5876,7 +5876,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Scene_PreFlash_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5900,7 +5900,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_SuperNight",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5924,7 +5924,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5948,7 +5948,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Video_1080p",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5972,7 +5972,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Video_120fps",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -5996,7 +5996,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Video_240fps",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6020,7 +6020,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Video_2k",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6044,7 +6044,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Video_EIS",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6068,7 +6068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Video_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6092,7 +6092,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Video_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6116,7 +6116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Boken_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6140,7 +6140,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Capture_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6164,7 +6164,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Capture_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6188,7 +6188,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Default_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6212,7 +6212,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Default_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6236,7 +6236,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Default_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6260,7 +6260,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Documents_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6284,7 +6284,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_FaceBeauty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6308,7 +6308,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_FaceBeauty_mfll",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6332,7 +6332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_HDR_MINUS_EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6356,7 +6356,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_LLHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6380,7 +6380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_NHDR_0EV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6404,7 +6404,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Panorama",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6428,7 +6428,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Preview_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6452,7 +6452,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Preview_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6476,7 +6476,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Pro_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6500,7 +6500,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Pro_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6524,7 +6524,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Resolution",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6548,7 +6548,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Resolution_FaceCapture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6572,7 +6572,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Resolution_Hiso_zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6596,7 +6596,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Resolution_Hiso_zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6620,7 +6620,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Resolution_SceneCapture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6644,7 +6644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Resolution_preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6668,7 +6668,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Resolution_zoom",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6692,7 +6692,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Scene_Capture_4cell_zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6716,7 +6716,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Scene_Capture_4cell_zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6740,7 +6740,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_ShortVideo",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6764,7 +6764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_SuperNight",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6788,7 +6788,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_ThirdAPP_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6812,7 +6812,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_ThirdAPP_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6836,7 +6836,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_1080P",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6860,7 +6860,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_120fps",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6884,7 +6884,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_240fps",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6908,7 +6908,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_2K",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6932,7 +6932,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_60fps",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6956,7 +6956,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_720P",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -6980,7 +6980,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_EIS",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7004,7 +7004,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_Zoom1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7028,7 +7028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Video_Zoom2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7052,7 +7052,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDefaultFpsActor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7079,7 +7079,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFrameRecord",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7106,7 +7106,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libJpgEncPipe",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7136,7 +7136,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMcClient",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7161,7 +7161,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMegviiHum",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7190,7 +7190,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMtkSpeechEnh",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7214,7 +7214,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libNoFpsActor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7241,7 +7241,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libOpenCL",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7268,7 +7268,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSQLiteModule_VER_ALL",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7292,7 +7292,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTEECommon",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7317,7 +7317,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libVkLayer_mtk_rt_sdk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7342,7 +7342,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_iir",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7368,7 +7368,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_speech_enh",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7397,7 +7397,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaal_key",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7421,7 +7421,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaal_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7447,7 +7447,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libalsautils-v32",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7475,7 +7475,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libanc_hdr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7500,7 +7500,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libanc_hdr_adapter_s5kjn1_17201715_back_g97",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7525,7 +7525,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7549,7 +7549,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libancbase_848",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7573,7 +7573,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapu_mdw",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7601,7 +7601,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapu_mdw_batch",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7626,7 +7626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapusys",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7653,7 +7653,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapusys_edma",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7682,7 +7682,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarmnn",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7710,7 +7710,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarmnn_ndk.mtk.vndk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7735,7 +7735,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudio_param_parser-vnd",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7765,7 +7765,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocompensationfilter_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7792,7 +7792,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocompensationfilterc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7820,7 +7820,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocomponentengine_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7851,7 +7851,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocomponentenginec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7881,7 +7881,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiocustparam_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7909,7 +7909,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiodcrflt_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7937,7 +7937,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiofmtconv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7966,7 +7966,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioloudc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -7995,7 +7995,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudioprimarydevicehalifclient",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8030,7 +8030,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiosmartpamtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8061,7 +8061,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiotoolkit_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8088,7 +8088,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaurisysdemo",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8115,7 +8115,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbessound_hd_mtk_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8143,7 +8143,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libblisrc32_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8171,7 +8171,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_hw_test",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8197,7 +8197,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8224,7 +8224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_mtk_pure",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8251,7 +8251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetooth_relayer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8278,7 +8278,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbluetoothem_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8303,7 +8303,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbt-vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8329,7 +8329,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc++_shared",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8351,7 +8351,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.seninfn3d",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8378,7 +8378,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam3_tranelapsedtime",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8404,7 +8404,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam3_tranpriorityctrl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8429,7 +8429,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam3_transerverengine",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8459,7 +8459,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.3dnr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8486,7 +8486,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.WarpMapResizer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8512,7 +8512,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.dngop",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8539,7 +8539,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.eis",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8567,7 +8567,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.fdft",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8592,7 +8592,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.fsc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8617,7 +8617,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.gyro",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8644,7 +8644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.hdr10p",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8669,7 +8669,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.lmv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8697,7 +8697,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.mcnr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8722,7 +8722,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.n3d",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8751,7 +8751,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.nr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8778,7 +8778,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.platform",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8806,7 +8806,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.utility",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8833,7 +8833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.vsdofUtil",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8858,7 +8858,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.warp",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8891,7 +8891,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcares_naptr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8917,7 +8917,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcarrierconfig",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8942,7 +8942,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcmdl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8967,7 +8967,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcmdl_ndk.mtk.vndk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -8991,7 +8991,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_c2store",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9027,7 +9027,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_vdec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9076,7 +9076,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_mtk_venc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9123,7 +9123,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_soft_mtk_alacdec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9156,7 +9156,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_soft_mtk_apedec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9189,7 +9189,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_soft_mtk_imaadpcmdec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9224,7 +9224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_soft_mtk_mp3dec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9259,7 +9259,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_soft_mtk_msadpcmdec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9294,7 +9294,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_vpp_qt_plugin",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9327,7 +9327,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_vpp_rs_plugin",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9360,7 +9360,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcomposer_ext",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9388,7 +9388,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libconnfem",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9414,7 +9414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcustom_nvram",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9438,7 +9438,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcvsd_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9466,7 +9466,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdecrypt",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9495,7 +9495,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdre",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9519,7 +9519,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdynamiclog",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9545,7 +9545,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeaturepolicy",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9570,7 +9570,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfgauge_gm30",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9598,7 +9598,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfile_op",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9625,7 +9625,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libforkexecwrap",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9651,7 +9651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libformatter",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9683,7 +9683,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libged",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9713,7 +9713,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpu_aux",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9756,7 +9756,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpud",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9795,7 +9795,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloc_extra",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9828,7 +9828,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloc_metadata",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9858,7 +9858,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgralloctypes_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9889,7 +9889,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgwsd-ril",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9919,7 +9919,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgwsdv2-ril",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9949,7 +9949,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgwsdv3-ril",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -9979,7 +9979,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhdrvideo",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10004,7 +10004,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libheichal",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10034,7 +10034,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhfmanager",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10062,7 +10062,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhfmanagerwrapper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10088,7 +10088,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhwm",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10115,7 +10115,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libifcutils_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10141,7 +10141,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimagebuffer_wrapper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10169,7 +10169,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimgsensorca",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10196,7 +10196,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimsg_log",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10221,7 +10221,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libispcameraca",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10251,7 +10251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpeg-alpha-oal_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10276,7 +10276,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpeg-alpha_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10302,7 +10302,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkmsetkey",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10331,7 +10331,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libksensor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10356,7 +10356,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmegface",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10380,7 +10380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libminiui",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10411,7 +10411,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmipc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10437,7 +10437,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmagent",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10468,7 +10468,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmml",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10495,7 +10495,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmmprofile",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10521,7 +10521,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmnetlink_v104",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10545,7 +10545,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmsbc_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10573,7 +10573,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk-fusion-ril-prop-vsim",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10607,7 +10607,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtk-ril",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10651,7 +10651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkares",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10676,7 +10676,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_fdWarpConvert",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10705,7 +10705,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-aov",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10739,7 +10739,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkconfig",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10764,7 +10764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkconfigutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10789,7 +10789,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkhardware_legacy",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10814,7 +10814,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkisp_metadata",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10841,7 +10841,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkisp_metadata_v2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10868,7 +10868,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtklimiter_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10896,7 +10896,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkmipc-ril",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10940,7 +10940,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtknetcap",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10966,7 +10966,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtknetutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -10992,7 +10992,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkrilutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11023,7 +11023,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkshifter_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11051,7 +11051,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtksysutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11078,7 +11078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtktinyxml",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11102,7 +11102,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11130,7 +11130,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_cic_ci_compiler",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11160,7 +11160,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_cl_compiler",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11189,7 +11189,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_mvpu_debuginfo",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11214,7 +11214,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_mvpu_elf",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11238,7 +11238,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_mvpu_utility",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11263,7 +11263,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_clc_vpu_isa",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11288,7 +11288,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_config",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11314,7 +11314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_engine",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11345,7 +11345,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_engine_pub",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11374,7 +11374,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_pattern",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11403,7 +11403,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_pattern_pub",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11432,7 +11432,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_runtime",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11466,7 +11466,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpu_runtime_pub",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11500,7 +11500,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpuop_mtk_cv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11524,7 +11524,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmvpuop_mtk_nn",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11548,7 +11548,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuron_graph_delegate.mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11578,7 +11578,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnir_neon_driver_ndk.mtk.vndk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11602,7 +11602,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnnp",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11627,7 +11627,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnpagent",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11663,7 +11663,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnpagent_server",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11699,7 +11699,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnvram",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11728,7 +11728,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnvram_sec",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11754,7 +11754,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnxp_extamp_intf",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11786,7 +11786,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboemcrypto",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11811,7 +11811,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpixelflinger",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11838,7 +11838,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpn557_fw",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11856,7 +11856,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpower_timer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11883,7 +11883,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpqframework",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11910,7 +11910,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libratconfig",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11938,7 +11938,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librgbwlightsensor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -11970,7 +11970,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librilfusion",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12017,7 +12017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librpc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12045,7 +12045,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librt_extamp_intf",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12078,7 +12078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspeech_enh_lib",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12102,7 +12102,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libspeechparser_vendor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12132,7 +12132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstorage_otp",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12159,7 +12159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsysenv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12186,7 +12186,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12215,7 +12215,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtlcWidevineModularDrm",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12246,7 +12246,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrm",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12271,7 +12271,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libudf",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12298,7 +12298,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liburee_meta_drmkeyinstall",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12328,7 +12328,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvia-ril",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12358,7 +12358,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libviagpsrpc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12386,7 +12386,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libviamipc-ril",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12416,7 +12416,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvidhance",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12444,7 +12444,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvidhance_active_ois",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12473,7 +12473,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvidhance_stabilizer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12502,7 +12502,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvow_ap_test_aa",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12529,7 +12529,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvow_ap_test_dd",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12556,7 +12556,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvow_ap_test_ha",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12583,7 +12583,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvow_ap_test_hh",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12610,7 +12610,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvow_ap_test_nn",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12637,7 +12637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpu",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12666,7 +12666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpu5",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12694,7 +12694,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwifi-hal-mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12723,7 +12723,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwpfa",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12752,7 +12752,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvhidl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12790,7 +12790,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvdrmengine",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12822,7 +12822,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fake_serial_yuv_IdxMgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12849,7 +12849,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fake_serial_yuv_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12896,7 +12896,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gc08a3_mipi_raw_IdxMgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12923,7 +12923,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gc08a3_mipi_raw_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -12986,7 +12986,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ae.core",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13017,7 +13017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ae",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13042,7 +13042,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ae.stat",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13067,7 +13067,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af.assist",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13096,7 +13096,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af.assist.utils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13126,7 +13126,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af.core",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13151,7 +13151,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.af",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13174,7 +13174,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.alsflicker",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13198,7 +13198,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.awb.core",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13223,7 +13223,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ccudrv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13258,7 +13258,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.ccuif",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13298,7 +13298,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.custom.ae",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13328,7 +13328,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.dce",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13357,7 +13357,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.flash",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13383,7 +13383,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.flicker",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13407,7 +13407,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.gma",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13436,7 +13436,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.lce",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13465,7 +13465,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.log",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13493,7 +13493,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.n3d3a",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13524,7 +13524,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.sensors.color",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13549,7 +13549,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3a.sensors.flicker",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13574,7 +13574,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_E2EHDR_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13599,7 +13599,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_E2EHDR_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13624,7 +13624,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Face_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13649,7 +13649,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Flash_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13674,7 +13674,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_HDR_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13699,7 +13699,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_HDR_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13724,7 +13724,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_HDR_Reconfig_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13749,7 +13749,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_HDR_Reconfig_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13774,7 +13774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_HDR_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13799,7 +13799,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_N3D_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13824,7 +13824,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_N3D_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13849,7 +13849,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_N3D_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13874,7 +13874,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_P1_YUV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13899,7 +13899,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Scene_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13924,7 +13924,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Scene_Capture_4cell",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13949,7 +13949,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Scene_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13974,7 +13974,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Scene_Preview_4k",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -13999,7 +13999,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Scene_Preview_ZSD_Flash",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14024,7 +14024,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Video_1080",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14049,7 +14049,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_fakeserialyuv_Video_4k",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14074,7 +14074,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_E2EHDR_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14099,7 +14099,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_E2EHDR_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14124,7 +14124,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Face_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14149,7 +14149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Flash_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14174,7 +14174,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_HDR_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14199,7 +14199,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_HDR_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14224,7 +14224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_HDR_Reconfig_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14249,7 +14249,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_HDR_Reconfig_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14274,7 +14274,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_HDR_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14299,7 +14299,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_N3D_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14324,7 +14324,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_N3D_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14349,7 +14349,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_N3D_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14374,7 +14374,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_P1_YUV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14399,7 +14399,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Scene_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14424,7 +14424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Scene_Capture_4cell",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14449,7 +14449,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Scene_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14474,7 +14474,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Scene_Preview_ZSD_Flash",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14499,7 +14499,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Video_1080",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14524,7 +14524,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Video_4k",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14549,7 +14549,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_gc08a3mipiraw_Zoom_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14574,7 +14574,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_E2EHDR_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14599,7 +14599,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_E2EHDR_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14624,7 +14624,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Face_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14649,7 +14649,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Flash_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14674,7 +14674,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_HDR_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14699,7 +14699,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_HDR_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14724,7 +14724,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_HDR_Reconfig_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14749,7 +14749,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_HDR_Reconfig_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14774,7 +14774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_HDR_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14799,7 +14799,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_N3D_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14824,7 +14824,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_N3D_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14849,7 +14849,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_N3D_Video",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14874,7 +14874,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_P1_YUV",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14899,7 +14899,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Scene_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14924,7 +14924,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Scene_Capture_4cell",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14949,7 +14949,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Scene_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14974,7 +14974,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Scene_Preview_ZSD_Flash",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -14999,7 +14999,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Video_1080",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15024,7 +15024,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Video_4k",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15049,7 +15049,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcgc08a3mipiraw_Zoom_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15074,7 +15074,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Face_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15099,7 +15099,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Flash_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15124,7 +15124,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Scene_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15149,7 +15149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Scene_Capture_4cell",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15174,7 +15174,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pblcs5kjn1mipiraw_Scene_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15199,7 +15199,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Flash_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15224,7 +15224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Scene_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15249,7 +15249,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Scene_Capture_4cell",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15274,7 +15274,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Scene_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15299,7 +15299,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbrogc08a3mipiraw_Video_1080",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15324,7 +15324,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Flash_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15349,7 +15349,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Scene_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15374,7 +15374,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Scene_Capture_4cell",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15399,7 +15399,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_pbros5kjn1mipiraw_Scene_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15424,7 +15424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Face_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15449,7 +15449,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Flash_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15474,7 +15474,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Scene_Capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15499,7 +15499,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Scene_Capture_4cell",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15524,7 +15524,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libCamera_s5kjn1mipiraw_Scene_Preview",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15549,7 +15549,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDR",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15576,7 +15576,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libImageEval",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15605,7 +15605,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX230PdafLibrary",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15630,7 +15630,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX230PdafLibraryWrapper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15662,7 +15662,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX338PdafLibrary",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15687,7 +15687,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX338PdafLibraryWrapper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15719,7 +15719,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX386PdafLibrary",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15744,7 +15744,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX386PdafLibraryWrapper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15776,7 +15776,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX519PdafLibrary",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15801,7 +15801,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSonyIMX519PdafLibraryWrapper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15833,7 +15833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranASD",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15864,7 +15864,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcFilter",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15896,7 +15896,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcFlashNew",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15927,7 +15927,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcHDR",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15958,7 +15958,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcLLHDR",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -15989,7 +15989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcLowLight",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16020,7 +16020,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranArcNightHawk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16051,7 +16051,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranBefMakeup",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16086,7 +16086,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranDenoise",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16116,7 +16116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranExtImgProc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16165,7 +16165,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranEyeDetect",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16196,7 +16196,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranFaceBeauty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16229,7 +16229,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranGenderDetect",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16261,7 +16261,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranHumanLight",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16296,7 +16296,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranMegHumanEffect",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16326,7 +16326,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranPlatHW",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16360,7 +16360,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSTPRRepair",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16391,7 +16391,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSTSingleBlur",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16422,7 +16422,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSlimBody",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16456,7 +16456,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranSmartDetection",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16487,7 +16487,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTranStSuperResolution",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16520,7 +16520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTran_Log",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16548,7 +16548,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTran_mtkPowerAPI",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16584,7 +16584,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libWaterMarkProc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16613,7 +16613,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_sr_indep_ocl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16637,7 +16637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaaa_ltm",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16662,7 +16662,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaaa_ltmx",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16686,7 +16686,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaal_cust_func",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16714,7 +16714,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaalservice",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16750,7 +16750,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libacdk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16795,7 +16795,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiawb_moon",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16823,7 +16823,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiawb_p1ggm",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16850,7 +16850,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiawb_sun",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16877,7 +16877,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaibc_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16901,7 +16901,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaibc_tuning_p2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16925,7 +16925,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaibc_tuning_p3",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16949,7 +16949,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaibc_tuning_p4",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16973,7 +16973,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaidepth_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -16997,7 +16997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaiselector",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17024,7 +17024,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libamipengine",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17049,7 +17049,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_beautyshot",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17077,7 +17077,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17103,7 +17103,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_hdr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17129,7 +17129,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_shot",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17155,7 +17155,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_night_hawk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17181,7 +17181,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_torch_portrait_night",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17207,7 +17207,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcalculatesharpness",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17233,7 +17233,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.afhal",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17286,7 +17286,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.chdr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17317,7 +17317,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.feature_utils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17365,7 +17365,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.cctsvr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17417,7 +17417,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.log",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17445,7 +17445,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.ae",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17497,7 +17497,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.ai3a",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17547,7 +17547,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.awb",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17593,7 +17593,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.dng",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17627,7 +17627,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.fsmgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17660,7 +17660,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.lscMgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17709,7 +17709,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.lsctbl.50",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17740,7 +17740,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.nvram.50",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17778,7 +17778,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.platform",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17874,7 +17874,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3.resultpool",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17916,7 +17916,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.hal3a.v3",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -17977,7 +17977,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halisp.buf",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18008,7 +18008,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halisp.common",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18065,7 +18065,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halisp",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18132,7 +18132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halsensor.hwintegration",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18158,7 +18158,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.halsensor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18195,7 +18195,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.iopipe",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18242,7 +18242,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.isptuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18317,7 +18317,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.pdtblgen",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18353,7 +18353,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.tuning.cache",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18384,7 +18384,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.utils.sensorprovider",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18423,7 +18423,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam.vhdr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18458,7 +18458,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam3atms_profiles",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18487,7 +18487,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.ispfeature",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18517,7 +18517,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.lsc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18546,7 +18546,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.platform2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18576,7 +18576,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.rotate",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18602,7 +18602,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamalgo.vsf",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18628,7 +18628,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_isp",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18659,7 +18659,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_tuning_mgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18692,7 +18692,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdrv_twin",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18721,7 +18721,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.custom.pd_buf_mgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18758,7 +18758,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.customae",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18789,7 +18789,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.customaf",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18819,7 +18819,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.customawb",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18848,7 +18848,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera.customflk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18876,7 +18876,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.camera.3a",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18909,7 +18909,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.camera.isp",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18945,7 +18945,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.camera.sensors",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18973,7 +18973,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.camera_exif",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -18999,7 +18999,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.eis",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19033,7 +19033,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.flashlight",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19061,7 +19061,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.lens",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19087,7 +19087,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom.plugin",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19118,7 +19118,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcameracustom",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19161,7 +19161,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdenoise",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19187,7 +19187,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdip_drv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19216,7 +19216,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdip_postproc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19252,7 +19252,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdpframework",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19293,7 +19293,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeffect_hal",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19323,7 +19323,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeffecthal.base",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19356,7 +19356,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeyedetector",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19382,7 +19382,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfacesattribute",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19408,7 +19408,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature.face",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19449,7 +19449,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature.stereo.provider",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19488,7 +19488,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature.vsdof.hal",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19535,7 +19535,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_3dnr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19572,7 +19572,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_eis",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19615,7 +19615,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_fsc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19651,7 +19651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_lmv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19693,7 +19693,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeature_rss",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19725,7 +19725,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfeatureiodrv_mem",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19759,7 +19759,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpudataproducer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19786,7 +19786,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19815,7 +19815,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio_plat_drv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19850,7 +19850,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageio_plat_pipe",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19882,7 +19882,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblpcnr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19907,7 +19907,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmnl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19933,7 +19933,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmpbase",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19955,7 +19955,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmsnr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -19980,7 +19980,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.atmseventmgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20008,7 +20008,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.eventcallback",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20038,7 +20038,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20100,7 +20100,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.depthmap",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20159,7 +20159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.streaming",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20228,7 +20228,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.featurepipe.vsdof_util",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20266,7 +20266,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam.logicalmodule",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20300,7 +20300,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.core",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20332,7 +20332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.customer",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20386,7 +20386,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty.mtk",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20435,7 +20435,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_3rdparty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20480,7 +20480,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_calibration_convertor",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20508,7 +20508,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_calibration_provider",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20543,7 +20543,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_debugutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20572,7 +20572,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_app",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20614,7 +20614,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hal",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20657,7 +20657,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hidl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20702,7 +20702,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_hidlutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20750,7 +20750,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_device3_utils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20791,7 +20791,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_devicesessionpolicy",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20827,7 +20827,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_diputils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20854,7 +20854,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_exif",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20886,7 +20886,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_fdvt",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20918,7 +20918,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_featurepolicy",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -20965,7 +20965,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_featureutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21003,7 +21003,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_fwkutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21032,7 +21032,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_grallocutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21073,7 +21073,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_hwnode",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21156,7 +21156,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_hwutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21200,7 +21200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_imem",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21233,7 +21233,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_imgbuf",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21274,7 +21274,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_mapping_mgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21315,7 +21315,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_metadata",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21349,7 +21349,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_metastore",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21385,7 +21385,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_mfb",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21417,7 +21417,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_aaa",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21452,7 +21452,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_custom",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21481,7 +21481,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_drv",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21512,7 +21512,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulefactory_utils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21542,7 +21542,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_modulehelper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21569,7 +21569,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_owe",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21597,7 +21597,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipeline",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21636,7 +21636,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipeline_fbm",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21670,7 +21670,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21711,7 +21711,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_adapter",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21747,7 +21747,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_capture",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21785,7 +21785,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_isp",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21830,7 +21830,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_session",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21879,7 +21879,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_utils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21928,7 +21928,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinemodel_zsl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -21968,7 +21968,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-security",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22004,7 +22004,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy-smvr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22040,7 +22040,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22084,7 +22084,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_pipelinepolicy_factory",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22122,7 +22122,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_prerelease",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22156,7 +22156,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_rsc",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22187,7 +22187,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_scenariorecorder",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22218,7 +22218,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_stdutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22250,7 +22250,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_streamutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22284,7 +22284,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_synchelper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22321,7 +22321,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_sysutils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22359,7 +22359,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_tuning_utils",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22393,7 +22393,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_ulog",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22424,7 +22424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuralnetworks_sl_driver_mtk_prebuilt",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22452,7 +22452,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuron_adapter_mgvi",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22479,7 +22479,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libneuron_runtime.5",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22505,7 +22505,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnir_neon_driver",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22531,7 +22531,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libportrait_repair_ocl",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22556,7 +22556,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpq_cust_base",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22581,7 +22581,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpq_prot",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22609,7 +22609,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpqparamparser",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22644,7 +22644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libremosaic_wrapper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22669,7 +22669,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libremosaiclib",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22695,7 +22695,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librmsclib1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22720,7 +22720,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsdk_sr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22746,7 +22746,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsegmention",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22774,7 +22774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsegmentionPre",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22801,7 +22801,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsmartdetector",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22827,7 +22827,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libst_mobile",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22854,7 +22854,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libst_sr_models",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22878,7 +22878,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstblur_capture_api",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22906,7 +22906,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstereoinfoaccessor_vsdof",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22937,7 +22937,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtf_asd_lib",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22964,7 +22964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_native_gainference",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -22989,7 +22989,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_native_inference",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23014,7 +23014,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_native_seginference",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23041,7 +23041,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtranssion_beauty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23066,7 +23066,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtranssion_bodybeauty",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23095,7 +23095,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvainr_model",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23119,7 +23119,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcgc08a3_mipi_raw_IdxMgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23146,7 +23146,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcgc08a3_mipi_raw_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23209,7 +23209,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcs5kjn1_mipi_raw_IdxMgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23236,7 +23236,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pblcs5kjn1_mipi_raw_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23307,7 +23307,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pbrogc08a3_mipi_raw_IdxMgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23334,7 +23334,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pbrogc08a3_mipi_raw_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23387,7 +23387,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pbros5kjn1_mipi_raw_IdxMgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23414,7 +23414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "pbros5kjn1_mipi_raw_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23470,7 +23470,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "s5kjn1_mipi_raw_IdxMgr",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23497,7 +23497,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "s5kjn1_mipi_raw_tuning",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23568,7 +23568,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmtkcam_streaminfo_plugin-p1stt",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23599,7 +23599,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.fptool.fingerprint@2.0-adapter-helper",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23628,7 +23628,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.fptool.fingerprint@2.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23658,7 +23658,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.apusys@2.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23686,7 +23686,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.apusys@2.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23715,7 +23715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.hmp@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23743,7 +23743,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.utils@2.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23771,7 +23771,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.audio@6.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23803,7 +23803,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.audio@7.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23835,7 +23835,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.atms@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23863,7 +23863,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23891,7 +23891,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23920,7 +23920,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.ccap@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23948,7 +23948,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.frhandler@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -23981,7 +23981,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24011,7 +24011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24042,7 +24042,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.lomoeffect@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24074,7 +24074,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.postproc@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24102,7 +24102,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.security@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24131,7 +24131,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.clientapi@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24159,7 +24159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.composer_ext@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24187,7 +24187,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24215,7 +24215,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24244,7 +24244,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.lbs@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24272,7 +24272,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mmagent@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24300,7 +24300,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mmagent@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24329,7 +24329,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24357,7 +24357,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24386,7 +24386,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24416,7 +24416,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.3",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24447,7 +24447,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.4",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24479,7 +24479,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.5",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24512,7 +24512,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.6",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24546,7 +24546,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mtkradioex@2.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24580,7 +24580,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mtkradioex@3.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24614,7 +24614,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.netdagent@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24642,7 +24642,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24670,7 +24670,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24699,7 +24699,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent@1.2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24729,7 +24729,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24757,7 +24757,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24786,7 +24786,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24815,7 +24815,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power@2.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24846,7 +24846,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24874,7 +24874,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24903,7 +24903,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.10",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24941,7 +24941,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.11",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -24980,7 +24980,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.12",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25020,7 +25020,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.13",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25061,7 +25061,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.14",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25103,7 +25103,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.15",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25146,7 +25146,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.2",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25176,7 +25176,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.3",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25207,7 +25207,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.4",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25239,7 +25239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.5",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25272,7 +25272,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.6",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25306,7 +25306,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.7",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25341,7 +25341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.8",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25377,7 +25377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq@2.9",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25414,7 +25414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.transsion.hardware.trancam.trancamserver@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25442,7 +25442,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.trustonic.tee.tui@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25470,7 +25470,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.trustonic.tee@1.0",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25498,7 +25498,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.trustonic.tee@1.1",
-    owner: "tecno",
+    owner: "infinix",
     strip: {
         none: true,
     },
@@ -25527,7 +25527,7 @@ cc_prebuilt_library_shared {
 
 android_app_import {
     name: "GpuGameDriver.mt6789",
-    owner: "tecno",
+    owner: "infinix",
     apk: "proprietary/vendor/priv-app/GpuGameDriver.mt6789/GpuGameDriver.mt6789.apk",
     certificate: "platform",
     dex_preopt: {
@@ -25539,7 +25539,7 @@ android_app_import {
 
 prebuilt_etc_xml {
     name: "android.hardware.biometrics.fingerprint@2.1-service.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25548,7 +25548,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "android.hardware.neuralnetworks-shim-service-mtk.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25557,7 +25557,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "android.hardware.security.keymint-service.trustonic.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25566,7 +25566,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "android.hardware.security.secureclock-service.trustonic.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25575,7 +25575,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "android.hardware.security.sharedsecret-service.trustonic.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25584,7 +25584,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "gnss-mtk.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25593,7 +25593,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "gnss@2.1-service.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25602,7 +25602,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "lbs_hidl_service@1.0.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25611,7 +25611,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25620,7 +25620,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_apuware_apusys.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_apusys.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25629,7 +25629,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_apuware_hmp.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_hmp.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25638,7 +25638,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_apuware_utils.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_utils.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25647,7 +25647,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_cameraprovider.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_cameraprovider.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25656,7 +25656,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_hwcomposer.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25665,7 +25665,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "manifest_media_c2_V1_2_default.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25674,7 +25674,7 @@ prebuilt_etc_xml {
 
 prebuilt_etc_xml {
     name: "vendor.transsion.hardware.trancam.trancamserver@1.0.xml",
-    owner: "tecno",
+    owner: "infinix",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
@@ -25683,7 +25683,7 @@ prebuilt_etc_xml {
 
 cc_prebuilt_binary {
     name: "autobt",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25711,7 +25711,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "bip",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -25736,7 +25736,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "bip_ap",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25762,7 +25762,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "bt_dump",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25789,7 +25789,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ccci_mdinit",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25820,7 +25820,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ccci_rpcd",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25849,7 +25849,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "fuelgauged",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25876,7 +25876,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "fuelgauged_nvram",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25904,7 +25904,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "gsm0710muxd",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -25932,7 +25932,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.biometrics.fingerprint@2.1-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25964,7 +25964,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.1-service-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -25998,7 +25998,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.drm@1.4-service.widevine",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26034,7 +26034,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.gnss-service.mediatek",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26074,7 +26074,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.media.c2@1.2-mediatek-64b",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26117,7 +26117,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks-shim-service-mtk",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26150,7 +26150,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.secure_element@1.2-service-mediatek",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26189,7 +26189,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.security.keymint-service.trustonic",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26227,7 +26227,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.graphics.allocator@4.0-service-mediatek.mt6789",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26256,7 +26256,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "camerahalserver",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26304,7 +26304,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mtkfusionrild",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26338,7 +26338,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tetheroffloadservice",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26378,7 +26378,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.fptool.fingerprint@2.0-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26411,7 +26411,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.keymaster_attestation@1.1-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26444,7 +26444,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.mmagent@1.1-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26477,7 +26477,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.mms@1.6-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26508,7 +26508,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.nvram@1.1-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26542,7 +26542,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.pq@2.2-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26573,7 +26573,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.transsion.hardware.trancam.trancamserver@1.0-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26603,7 +26603,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.trustonic.tee@1.1-service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26639,7 +26639,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vtservice_hidl",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26674,7 +26674,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ipsec_mon",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26702,7 +26702,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "kmsetkey_ca.trustonic",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26729,7 +26729,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "lbs_hidl_service",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26763,7 +26763,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mcDriverDaemon",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26788,7 +26788,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mnld",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26829,7 +26829,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "dumpfaultd.mt6789",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26855,7 +26855,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "jpegtool",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26884,7 +26884,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "v3avpud.mt6789",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -26915,7 +26915,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mtk_agpsd",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26946,7 +26946,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "netdagent",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -26977,7 +26977,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "nvram_daemon",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -27007,7 +27007,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "rcs_volte_stack",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -27038,7 +27038,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "thermal_core",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -27068,7 +27068,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_clientapi_ua",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -27103,7 +27103,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_imcb",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -27131,7 +27131,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_imsm_93",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -27157,7 +27157,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_md_status",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -27183,7 +27183,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_rcs_ua",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -27220,7 +27220,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_stack",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -27249,7 +27249,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "volte_ua",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm: {
             srcs: [
@@ -27277,7 +27277,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wlan_assistant",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -27304,7 +27304,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wmt_launcher",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
@@ -27330,7 +27330,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wmt_loader",
-    owner: "tecno",
+    owner: "infinix",
     target: {
         android_arm64: {
             srcs: [
